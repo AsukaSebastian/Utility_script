@@ -1,3 +1,8 @@
+#!/bin/bash
+if (( $EUID != 0 )); then
+    echo "You need to run script as root" 
+    exit
+fi
 echo 'Dpkg::Progress-Fancy "1";' > /etc/apt/apt.conf.d/99progressbar
 add-apt-repository ppa:webupd8team/sublime-text-3
 add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
