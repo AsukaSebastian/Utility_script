@@ -14,6 +14,3 @@ apt-get -y install plank
 apt-get -y install htop
 apt-get -y install nmap
 apt-get -y update && apt-get -y upgrade && apt-get -y dist-upgrade
-
-
-
