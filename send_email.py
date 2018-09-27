@@ -1,6 +1,9 @@
 import credentials
 import smtplib
 
+# I stored my credentials in credentials.py a better way of doing it
+# would be to store them as environment variables then importing OS
+
 
 def send_email(subject, messages, recepient):
     try:
@@ -16,7 +19,7 @@ def send_email(subject, messages, recepient):
         print("Email failed to send")
 
 
-recepient = "muokicaleb@gmail.com"
+recepient = ""
 subject = "test subject"
 msg = "hello world"
 
