@@ -12,7 +12,6 @@ apt-get -y install git
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 apt-get -y install sublime-text-installer
-apt-get -y install apache2
 apt-get -y install virtualbox 
 apt-get -y install virtualbox virtualbox-ext-pack 
 apt-get -y install plank
